@@ -1,0 +1,156 @@
+
+
+/* Hi! I’m Megan Lee and I am a designer & developer */
+
+body {
+    /* height: 100px;
+    width: 100px; */
+    display: block;
+    margin: 0px;
+    /* margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 60px;
+    margin-left: 8px; */
+    background-color: #FEDFDF;
+
+}
+
+#introduction{
+    font-family: Poppins;
+}
+
+.toplinks{
+    position: fixed;
+    right: 10px;
+
+    font-family: Open Sans;
+    /* width: 830px;
+    height: 565px;
+    left: 145px;
+    top: 10px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 90px;
+
+    color: #000000; */
+}
+
+.description{
+    position: absolute;
+    width: 830px;
+    height: 565px;
+    left: 145px;
+    top: 200px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 90px;
+
+    color: #000000;
+}
+
+/* Rectangle next to description */
+.box{
+    position: absolute;
+    width: 12px;
+    height: 296px;
+    left: 103px;
+    top: 247px;
+
+    background: #1547FD;
+}
+
+/* Me */
+.mephoto{
+    position: absolute;
+    width: 600px;
+    right: 4%;
+    top: 0px;
+}
+
+.meblob{
+    position: absolute;
+    width: 600px;
+    right: 4%;
+    top: 0px;
+}
+
+/* pinkblobs 1 */
+.medots{
+    position: absolute;
+    width: 350px;
+    right: 20%;
+    top: 100px;
+}
+
+.desktopRectangle01{
+    /* position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 6.05%;
+    bottom: 0%; */
+
+    position: absolute;
+    width: 1305px;
+    height: 844px;
+    left: 67px;
+    top: 682px;
+
+    background: #051349;
+    border-radius: 20px;
+}
+
+.desktopRectangle02{
+    /* position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 6.05%;
+    bottom: 0%; */
+
+    position: absolute;
+    width: 1305px;
+    height: 844px;
+    left: 67px;
+    top: 720px;
+    background: #0C2584;
+}
+.desktopEllipse1{
+    position: absolute;
+    left: 5.28%;
+    right: 93.3%;
+    top: 1.54%;
+    bottom: 96.27%;
+
+    background:#EE7A7A;
+}
+
+.desktopEllipse2{
+    position: absolute;
+    /* left: 5.28%;
+    right: 93.3%;
+    top: 1.54%;
+    bottom: 96.27%; */
+
+    background: #F2C94C;
+}
+
+.desktopEllipse3{
+    position: absolute;
+    left: 5.28%;
+    right: 93.3%;
+    top: 1.54%;
+    bottom: 96.27%;
+
+    background: #6FCF97;
+}
+
+
+
+
+
+
+
