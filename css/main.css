@@ -1,4 +1,42 @@
+#camera {
+max-width: 360px;
+top: 0px;
+left: 50px;
+}
 
+#panel {
+max-width: 280px;
+top: 640px;
+left: -200px;
+}
+
+#pentoolguy {
+max-width: 300px;
+top: 600px;
+left: -280px;
+}
+
+#laptopguy {
+max-width: 400px;
+top: 800px;
+left: 240px;
+}  
+
+
+@font-face { 
+    font-family: "Apercu"; 
+    src: url('Apercu\ Pro\ Regular.otf');
+} 
+@font-face { 
+    font-family: "Apercu"; 
+    font-weight: bold; 
+    src: url('Apercu\ Pro\ Bold.otf');
+}
+@font-face { 
+    font-family: "Apercu"; 
+    font-weight: light; 
+    src: url('Apercu\ Pro\ Light.otf');
+}
 
 /* Hi! I’m Megan Lee and I am a designer & developer */
 
@@ -15,27 +53,36 @@ body {
 
 }
 
-#introduction{
+.introduction{
     font-family: Poppins;
 }
 
 .toplinks{
     position: fixed;
     right: 10px;
+    z-index: 1000;
+    font-family: Apercu;
 
-    font-family: Open Sans;
-    /* width: 830px;
-    height: 565px;
-    left: 145px;
-    top: 10px;
+    font-style: bold;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 41px;
 
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 60px;
-    line-height: 90px;
+    color: #0C2584;
+}
 
-    color: #000000; */
+.toplinks a{
+    text-decoration: none;
+}
+
+.toplinks a:visited{
+    text-decoration: none;
+    color: #0C2584;
+}
+
+.toplinks a:hover{
+    text-decoration: none;
+    color: white;
 }
 
 .description{

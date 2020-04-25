@@ -8,26 +8,48 @@
   <!-- <meta name="description" content="x"> -->
   <meta name="author" content="Megan Lee">
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet"
-  href="https://fonts.googleapis.com/css?family=Poppins">
-  <link rel="stylesheet"
-  href="https://fonts.googleapis.com/css?family=Open+Sans">
+  <link rel="stylesheet" href="css/experiences.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
 
   <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.0/lib/anime.min.js"></script>
-  <script src="js/animate.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+  <script src ="js/typed.min.js"></script>
 
 </head>
 
 <body>
-    
-    <!-- <li><a href="#media">Media</a></li> -->
+
+
+    <!-- <div class="images__container images__container--left">
+        <img id="camera" class="images--mobile" src="https://raw.githubusercontent.com/InnovativeDesign/innovativedesign.club/master/static/img/sp20/camera.png"/>
+        <img id="laptopguy" class="images--mobile" src="https://raw.githubusercontent.com/InnovativeDesign/innovativedesign.club/master/static/img/sp20/laptopguy.png" />
+    </div> -->
+
+    <div id="typed-strings">
+            <p>Typed.js is a <strong>JavaScript</strong> library.</p>
+            <p>It <em>types</em> out sentences.</p>
+          </div>
+          <span id="typed"></span>
+
+    <script>
+        $('document').ready(function(){
+            var typed = new Typed ('#typed', {
+                stringsElement: '#typed-strings'
+            });
+        });
+    </script>
         
     <!-- introduction section -->
-    <div id="introduction">
+    <div class="introduction">
+
         <div class="toplinks">
-            <a href="#introduction">Home</a>
-            <a href="#experiences">Experiences</a>
-        </div>
+                <a href="#introduction">Home</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+    
 
         <!-- description -->
         <div class="description">
@@ -44,14 +66,16 @@
         <div class ="box">
         </div>
 
+        <div class="meimgs">
         <!-- blob behind me -->
-        <img class = "meblob" src="assets/blob-shape.svg" alt="blob!" />
+            <img class = "meblob" src="assets/blob-shape.svg" alt="blob!" />
 
-        <!-- dots behind me -->
-        <img class = "medots" src="assets/mepinkblob.png" alt="dots!" />
+            <!-- dots behind me -->
+            <img class = "medots" src="assets/mepinkblob.png" alt="dots!" />
 
-        <!-- photo of me -->
-        <img class = "mephoto" src="assets/me.png" alt="photo of me!" />
+            <!-- photo of me -->
+            <img class = "mephoto" src="assets/me.png" alt="photo of me!" />
+        </div>
         
         <div class ="desktopRectangle01"></div>
         <div class ="desktopRectangle02"></div>
@@ -62,10 +86,55 @@
         <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
         </svg> -->
 
-        
+    
+        <!-- <div class="toplinks">
+            <a href="#introduction">Home</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div> -->
         
     
     </div>
+
+    <!-- experience section -->
+    <div class="experience">
+    
+        <div class = "resume">
+            <h1>Product Management Intern @ Reddit | 2020</h1>
+            <p>Coming Soon!</p>
+
+            <h1>Product & Operations Intern @ Intel | 2019-2020</h1>
+            <p>I worked with the Markets & Ecosystem team in Internet of Things Group 
+                and learned a ton about web analytics, optimizing workflows, and creating 
+                value propositions.</p>
+
+            <h1>Lab Assistant @ UC Berkeley Division of Data Science | 2019</h1>
+            <p> I assisted a lab section of 30+ students weekly, helping to teach computer programming and 
+            statistical inference, in the context of hands-on analysis of real-world datasets. </p>
+
+            <h1>VP of Administration / Graphic Design Team Lead | 2018-2020</h1>
+            <p>I organized club facing logistics and published the first newsletter to 100+ designers, 
+            photographers, and web developers, enhancing communication within one of UC Berkeley’s 
+            largest organizations. I also led and mentored 7 amazing designers to complete visual and 
+            branding designs for clubs at UC Berkeley! </p>
+
+            <h1>CEO & Founder of Saturdate  | 2014</h1>
+            <p>I founded my own clothing company freshman year of high school and learned a ton about SEO, 
+            web analytics, sourcing,  advertising. I ended up generating over $30,000 in revenue 
+            (pocket change now, but a big deal for high school me!) and gained priceless, hands-on knowledge
+             in entrepreneurship. </p>
+
+
+        </div>
+
+        <div class = "pinkblobsVertical" ></div>
+    
+
+    </div>
+
+    <script src="js/animate.js"></script>
+    <script src="js/typed.js"></script>
 
     
 </body>

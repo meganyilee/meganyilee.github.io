@@ -1,0 +1,31 @@
+.experience{
+    z-index: 1000;
+
+    position: absolute;
+    width: 731px;
+    height: 577px;
+    left: 312px;
+    top: 900px;
+}
+
+.experience h1{
+    font-family: Poppins;
+}
+
+.experience p{
+    font-family: Apercu;
+
+}
+
+/* darkpinkblobs 1 */
+
+.experince .pinkblobsVertical{
+    position: absolute;
+    left: 94.58%;
+    right: -7.92%;
+    top: 37.33%;
+    bottom: -8.11%;
+
+    background: url('assets/darkpinkblobs.png');
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
