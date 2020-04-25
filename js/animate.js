@@ -2,7 +2,7 @@ anime({
     targets: ".introduction .meimgs img",
     translateX: "50px",
     opacity: [0,1],
-    delay: (_, index) => 300 + index * 200,
+    delay: (_, index) => 300 + index * 150,
   });
 
   anime({
