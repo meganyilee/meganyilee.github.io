@@ -100,6 +100,11 @@ body {
     color: #000000;
 }
 
+.description .typed{
+    font-weight: bold;
+    color: #1547FD;
+}
+
 /* Rectangle next to description */
 .box{
     position: absolute;
@@ -114,6 +119,7 @@ body {
 /* Me */
 .mephoto{
     position: absolute;
+    z-index: 1000;
     width: 600px;
     right: 4%;
     top: 0px;
