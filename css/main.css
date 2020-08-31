@@ -1,28 +1,3 @@
-#camera {
-max-width: 360px;
-top: 0px;
-left: 50px;
-}
-
-#panel {
-max-width: 280px;
-top: 640px;
-left: -200px;
-}
-
-#pentoolguy {
-max-width: 300px;
-top: 600px;
-left: -280px;
-}
-
-#laptopguy {
-max-width: 400px;
-top: 800px;
-left: 240px;
-}  
-
-
 @font-face { 
     font-family: "Apercu"; 
     src: url('Apercu\ Pro\ Regular.otf');
@@ -53,36 +28,32 @@ body {
 
 }
 
-.introduction{
+#introduction{
     font-family: Poppins;
 }
 
 .toplinks{
+    display: flex;
+    justify-content: space-between;
+    width:180px;
     position: fixed;
-    right: 10px;
-    z-index: 1000;
+    top: 10px;
+    right: 100px;
+    z-index: 999999;
     font-family: Apercu;
-
-    font-style: bold;
-    font-weight: normal;
-    font-size: 30px;
+    
+    font-size: 20px;
     line-height: 41px;
-
-    color: #0C2584;
+    /* padding-right: 10px; */
 }
 
 .toplinks a{
     text-decoration: none;
-}
-
-.toplinks a:visited{
-    text-decoration: none;
-    color: #0C2584;
+    color: black;
 }
 
 .toplinks a:hover{
-    text-decoration: none;
-    color: white;
+    color: #fff;
 }
 
 .description{
@@ -102,18 +73,23 @@ body {
 
 .description .typed{
     font-weight: bold;
-    color: #1547FD;
+    color: #0C2584;
+}
+
+.description .myname{
+    font-weight: bold;
+    color: #0C2584;
 }
 
 /* Rectangle next to description */
 .box{
     position: absolute;
-    width: 12px;
-    height: 296px;
+    width: 10px;
+    height: 316px;
     left: 103px;
-    top: 247px;
+    top: 223px;
 
-    background: #1547FD;
+    background: #0C2584;
 }
 
 /* Me */
@@ -138,47 +114,6 @@ body {
     width: 350px;
     right: 20%;
     top: 100px;
-}
-
-.desktopRectangle01{
-    /* position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 6.05%;
-    bottom: 0%; */
-
-    position: absolute;
-    width: 1305px;
-    height: 844px;
-    left: 67px;
-    top: 682px;
-
-    background: #051349;
-    border-radius: 20px;
-}
-
-.desktopRectangle02{
-    /* position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 6.05%;
-    bottom: 0%; */
-
-    position: absolute;
-    width: 1305px;
-    height: 844px;
-    left: 67px;
-    top: 720px;
-    background: #0C2584;
-}
-.desktopEllipse1{
-    position: absolute;
-    left: 5.28%;
-    right: 93.3%;
-    top: 1.54%;
-    bottom: 96.27%;
-
-    background:#EE7A7A;
 }
 
 .desktopEllipse2{

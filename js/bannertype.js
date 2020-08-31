@@ -31,16 +31,17 @@
 
 document.addEventListener('DOMContentLoaded', function(){
     Typed.new('.typed', {
-      strings: ["designer & developer", "family", "team", "community"],
+      strings: ["a designer &amp; developer", "an enneagram type 4 ", "a coffee addict", "an avid baker ",
+      "an amateur photographer", "a plant mom"],
       stringsElement: null,
       // typing speed
-      typeSpeed: 60,
+      typeSpeed: 30,
       // time before typing starts
       startDelay: 50,
       // backspacing speed
-      backSpeed: 20,
+      backSpeed: 10,
       // time before backspacing
-      backDelay: 500,
+      backDelay: 600,
       // loop
       loop: true,
       // false = infinite

@@ -1,32 +1,86 @@
-.experience{
-    z-index: 1000;
-    color: #ECBEBE;
-
+#experienceTitle{
     position: absolute;
-    width: 731px;
-    height: 577px;
-    left: 312px;
-    top: 900px;
-}
-
-.experience h1{
     font-family: Poppins;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #FBC8C7;
+    font-size: 50px;    
+
+    background: #051349;
+    border-radius: 20px;
+    padding-right:50px;
+
+    width: 500px;
+    height: 100px;
+    left: -150px;
+    top: 800px;
+
+    text-align: right;
+    line-height: 100px;
 }
 
-.experience p{
-    font-family: Apercu;
-
-}
-
-/* darkpinkblobs 1 */
-
-.experince .pinkblobsVertical{
+#dots02{
+    z-index: 1000;
     position: absolute;
     left: 94.58%;
     right: -7.92%;
     top: 37.33%;
     bottom: -8.11%;
 
-    background: url('assets/darkpinkblobs.png');
+    width: 200px;
+
     transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+
+.experience{
+    /* z-index: 1000; */
+    color: #051349;
+
+    position: absolute;
+    width: 731px;
+    height: 577px;
+    left: 312px;
+    top: 970px;
+}
+
+.experience h1{
+    font-family: Poppins;
+    font-weight: bold;
+    left: 312px;
+    font-size: 25px;
+
+}
+
+.experience p{
+    /* z-index:1000; */
+    font-family: Apercu;
+    left: 312px;
+}
+
+/* darkpinkblobs 1 */
+
+.experience #dots01{
+    z-index: 1000;
+    position: absolute;
+    right: -50px;
+    top: -50px;
+
+    width: 200px;
+
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+/* Rectangle Experiences */
+
+.experience .rectangle10{
+    z-index: -500;
+    position: absolute;
+    width: 888px;
+    height: 852px;
+    left: -50px;
+    top: -25px; 
+
+    background: #051349;
+    border-radius: 20px;
 }
